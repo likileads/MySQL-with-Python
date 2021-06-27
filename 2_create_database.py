@@ -9,4 +9,4 @@ db = mysql.connector.connect(
 
 mycursor = db.cursor()   # creating cursor object
 
-mycursor.execute("CREATE DATABASE student")   # creating a schema for student database
+mycursor.execute("CREATE DATABASE student")    # creating a schema for student database
